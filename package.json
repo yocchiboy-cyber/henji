@@ -1,0 +1,11 @@
+{
+  "name": "henji",
+  "version": "1.0.0",
+  "private": true,
+  "description": "返事 — 言葉と余白を読む、看護の対話をめぐる短編",
+  "scripts": {
+    "test": "node tests/story.test.cjs",
+    "docs": "node scripts/export-story.cjs"
+  },
+  "engines": {"node": ">=18"}
+}
